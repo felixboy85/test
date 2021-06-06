@@ -39,6 +39,12 @@ body {
     margin: 0 auto;
 }
 
+.stop-scrolling {
+    position: fixed;
+    width: 100%;
+    overflow-y: scroll;
+}
+
 @import 'blocks/main';
 @import 'blocks/advantages';
 @import 'blocks/footer';

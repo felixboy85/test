@@ -1,0 +1,61 @@
+.advantages {
+    padding: 130px 0;
+    &__title {
+        font-family: Whitney;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        color: #2E2D35;
+        margin-bottom: 50px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        padding: 21px 10px 21px 40px;
+        width: 570px;
+        height: 235px;
+        background-color: #F6F5F9;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    &__item-inner {
+        display: flex;
+        flex-direction: column;
+    }    
+
+    &__item-header {
+        margin-top: 22px;
+        margin-bottom: 22px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29px;
+        color: #2E2D35;
+    }
+
+
+
+    &__item-descr {
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 142%;
+        color: #474351;
+        width: 292px;
+    }
+
+    &__item-img {
+        width: 193px;
+        height: 193px;
+    }
+}

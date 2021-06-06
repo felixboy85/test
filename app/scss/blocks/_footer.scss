@@ -1,0 +1,47 @@
+.footer {
+    padding: 70px 70px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background: url('../images/footer-bg.jpg');
+    border-radius: 10px;
+    min-height: 371px;
+    height: 100%;
+    &__offer {
+        width: 50%;
+    }
+    &__title {
+        font-family: 'Whitney';
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 45px;
+        color: #FFFFFF;
+        width: 558px;
+        margin-bottom: 46px;
+    }
+
+    &__btn {
+        border: none;
+        width: 222px;
+        height: 50px;
+        background: #F25B24;
+        border-radius: 4px;
+        font-family: 'Whitney';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: all .3s linear;
+        &:hover {
+            background: #9b4526;
+        }
+    }
+    &__img {
+        width: 731px;
+        height: auto;
+        margin-left: -146px;       
+    }
+}
